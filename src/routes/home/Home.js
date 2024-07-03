@@ -1,8 +1,15 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import Tabs from '../../components/tabs/Tabs'
-import Accordion from '../../components/accordion/Accordion'
-import Slider from '../../components/slider/Slider'
+// import Tabs from '../../components/tabs/Tabs'
+// import Accordion from '../../components/accordion/Accordion'
+// import Slider from '../../components/slider/Slider'
+// import MoveBox from '../../components/animatePresence/MoveBox'
+// import Tabs from '../../components/animatePresence/Tabs'
+// import Accordion from '../../components/animatePresence/Accordion'
+// import Accordion from '../../components/animatePresence/Accordion2'
+// import LoadingCircle from '../../components/animatePresence/LoadingCircle'
+import LoadingText from '../../components/animatePresence/LoadingText'
+
 
 const Home = () => {
   return (
@@ -14,7 +21,13 @@ const Home = () => {
 
         <Tabs />
         <Accordion /> */}
-        <Slider />
+        {/* <Slider /> */}
+        {/* <MoveBox /> */}
+        {/* <Tabs /> */}
+        {/* <Accordion /> */}
+        {/* <LoadingCircle /> */}
+        <LoadingText />
+        
     </div>
   )
 }
